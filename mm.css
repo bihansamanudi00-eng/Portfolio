@@ -1,0 +1,301 @@
+/*-------------------------------------------------------------------------------*/
+
+/* Responsive Media Queries */
+
+
+
+/* Tablets Landscape - 992px to 1199px */
+@media (max-width: 1199px) and (min-width: 992px) {
+    .container {
+        width: 95%;
+    }
+
+    header {
+        padding: 0 20px;
+    }
+
+    header ul {
+        width: 35%;
+    }
+
+    .hero-info h1 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+    .hero-info p {
+        max-width: 450px;
+        font-size: 18px;
+    }
+
+    .hero-vid-box video {
+        height: 600px;
+        width: 100px;
+    }
+
+    .blackhole-box video {
+        margin-top: -20%;
+    }
+
+    .section-title,
+    .section-title1 {
+        font-size: 35px;
+    }
+
+    .info-cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .card {
+        height: 35vh;
+    }
+
+    .card:nth-child(3) {
+        grid-column: span 2;
+        height: 70vh;
+        width: 100%;
+    }
+
+    .card:nth-child(4) {
+        grid-column: span 2;
+    }
+
+    .card h1 {
+        font-size: 22px;
+    }
+
+    .card p {
+        font-size: 14px;
+    }
+
+    .projects-card {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .project-vidbox {
+        width: 70%;
+        min-width: 300px;
+        
+    }
+
+    .project-info {
+        width: 70%;
+        padding-left: 0;
+    }
+
+    .project-info h1 {
+        font-size: 22px;
+    }
+
+    .project-info p {
+        font-size: 16px;
+    }
+
+    .skills-box {
+        height: 80vh;
+    }
+
+    .Cyber,
+    .coder {
+        max-width: 250px;
+    }
+
+    .skills-box h1 {
+        font-size: 40px;
+    }
+
+    .slider {
+        width: 70%;
+    }
+
+    .contact-section {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .contact-section h1 {
+        position: static;
+        margin-bottom: 20px;
+    }
+
+    .social-box {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .contact-box {
+        width: 80%;
+    }
+}
+
+/* Tablets Portrait - 768px to 991px */
+@media (max-width: 991px) and (min-width: 768px) {
+    .container {
+        width: 95%;
+        gap: 80px;
+    }
+
+    header {
+        padding: 0 15px;
+        height: 60px;
+    }
+
+    header ul {
+        width: 40%;
+        padding: 10px 15px;
+    }
+
+    header ul a {
+        font-size: 14px;
+    }
+
+    .box-icons a {
+        font-size: 24px;
+    }
+
+    .hero-info h1 {
+        font-size: 38px;
+        line-height: 45px;
+    }
+
+    .hero-info p {
+        max-width: 400px;
+        font-size: 16px;
+    }
+
+    .hero-vid-box video {
+        height: 500px;
+    }
+
+    .blackhole-box video {
+        margin-top: -18%;
+    }
+
+    .scroll-down {
+        bottom: 10%;
+    }
+
+    .section-title,
+    .section-title1 {
+        font-size: 32px;
+    }
+
+    .info-section {
+        width: 90%;
+    }
+
+    .info-cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .card {
+        height: 35vh;
+    }
+
+    .card:nth-child(3) {
+        grid-column: span 2;
+        height: 70vh;
+    }
+
+    .card:nth-child(4) {
+        grid-column: span 2;
+    }
+
+    .card h1 {
+        font-size: 20px;
+    }
+
+    .card p {
+        font-size: 13px;
+    }
+
+    .my-projects {
+        width: 90%;
+        margin-bottom: 500px;
+    }
+
+    .projects-card {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .project-vidbox {
+        width: 70%;
+        min-width: 300px;
+    }
+
+    .project-info {
+        width: 70%;
+        padding-left: 0;
+    }
+
+    .project-info h1 {
+        font-size: 20px;
+    }
+
+    .project-info p {
+        font-size: 15px;
+    }
+
+    .skills-box {
+        height: 80vh;
+    }
+
+    .Cyber,
+    .coder {
+        max-width: 220px;
+    }
+
+    .skills-box h1 {
+        font-size: 35px;
+    }
+
+    .skills-box p {
+        font-size: 14px;
+    }
+
+    .slider {
+        width: 80%;
+    }
+
+    .contact-section {
+        width: 90%;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .contact-section h1 {
+        position: static;
+        margin-bottom: 20px;
+    }
+
+    .social-box {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .contact-box {
+        width: 80%;
+    }
+
+    .footer {
+        padding: 15px;
+    }
+
+    .footer h1 {
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
