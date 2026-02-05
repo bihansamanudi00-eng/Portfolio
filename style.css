@@ -1115,10 +1115,20 @@ card button:hover{
 
 @media screen and (max-width: 480px) {
 
+
+    html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: clip !important; /* This cuts off anything wider than the screen */
+    position: relative;
+}
+
     .hero .skills-video-box {
         display: none;
         
     }
+    
     .blackhole-box {
         display: block !important;
         width: 100%;
@@ -1126,6 +1136,7 @@ card button:hover{
         margin-bottom: -120px !important; 
         position: relative;
         z-index: -1; 
+        align-items: center;
 
         
     }
@@ -1149,6 +1160,7 @@ card button:hover{
 
     .hero {
         scale: 0.9;
+        align-items: center;
     }
 
     .hero-info{
@@ -1191,6 +1203,7 @@ card button:hover{
     .info-cards{
         display: flex;
         flex-direction: column;
+        
     }
 
     .card {
@@ -1238,6 +1251,7 @@ card button:hover{
     }
     .my-projects{
         margin-bottom: 700px;
+        align-items: center;
         margin-top: 100px;
     }
     .project-vidbox video{
@@ -1308,6 +1322,7 @@ card button:hover{
     .contact-section{
         scale: 0.9;
         height: 120vh;
+        align-items: center;
     }
 
     .contact-section .section-title {
@@ -1325,7 +1340,7 @@ card button:hover{
         background: rgba(3, 0, 20, 0.7); 
         backdrop-filter: blur(10px);
         border-top: 1px solid rgba(231, 132, 232, 0.3);
-        width: 120vw;
+        width: 90vw;
     }
 
     /* Target all headers in the footer to reset them */
@@ -1337,6 +1352,7 @@ card button:hover{
         color: rgba(255, 255, 255, 0.7);
         line-height: 2.5;       /* Adds consistent vertical space between lines */
         text-align: center;
+        
     }
 
     /* Style the first line (Your Name) specifically */
